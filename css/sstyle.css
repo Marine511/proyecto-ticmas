@@ -1,0 +1,99 @@
+* { font-family: 'Source Sans Pro', sans-serif;
+     background-color:rgb(247, 242, 243);
+     margin: 10px;
+     padding-left: 0px; 
+}
+
+.ellen {
+     float: left;
+     height: 150px;
+     width: 150px;
+     padding: 0px 20px;
+}
+
+.content {
+     clear: left;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+
+h1 { text-align: center;
+     padding: 10px;
+     font-size: 20px; 
+     background-color: none;    
+}
+#descripcion {
+     text-align: center;
+     padding: 10px;
+     margin: 10px;
+}
+
+.linea {
+     border-top: 1px solid rgb(48, 44, 44);
+     height: 0px;
+     max-width: 600px;
+     padding: 0px;
+     margin: 1px auto 0px 440px; 
+}
+
+ul {
+     list-style-type:circle;
+}
+
+.contacto {
+     list-style-type: none;
+}
+
+#correo {
+     float: left ;
+     width: 15px;
+     padding: 2px;
+     margin: 2px 1px 4px 0px;
+}
+
+#direccion {
+     float: left ;
+     width: 10px;
+     padding: 2px;
+     margin: 2px 3px 0px 1px;
+}
+
+#telefono { 
+     float: left; 
+     width: 13px;
+     margin: 4px 2px 0px 2px;
+}
+
+h2 {
+    line-height: 70px;
+}
+
+#sublinea {
+     padding-left: 7px;
+     margin-top: -8px;
+}
+.experiencia {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.trabajo2 {
+     padding-left: 200px;
+     margin-top: 90px;
+}
+
+@media (min-width: 1349px){
+     .column2 {
+         padding-left: 200px;
+     }
+ }
+ @media (max-width: 1280px){
+     .trabajo2 {
+         padding-left: 0px;
+     }
+ }
+ @media (max-width: 768px){
+     .linea {
+          max-width: 400px;
+          margin: 0px auto 0px 270px; 
+}
+}
